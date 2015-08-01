@@ -2,7 +2,7 @@ Permit
 ==============
   
 ## Introduction
-To make a short story shorter, I discovered ###[Quickly](https://wiki.ubuntu.com/Quickly) on 07/25/2015 
+To make a short story shorter, I discovered [Quickly](https://wiki.ubuntu.com/Quickly) on 07/25/2015 
 and thought, 'That looks interesting...'
 
 Which brings us to the present moment. I wanted to write something utilizing Quickly but it had to be simple because:
