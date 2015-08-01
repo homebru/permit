@@ -439,8 +439,8 @@
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">Owner:</property>
                     <property name="ellipsize">end</property>
-                    <property name="width_chars">6</property>
-                    <property name="max_width_chars">6</property>
+                    <property name="width_chars">7</property>
+                    <property name="max_width_chars">7</property>
                     <attributes>
                       <attribute name="weight" value="semibold"/>
                     </attributes>
