@@ -12,6 +12,8 @@ Which brings us to the present moment. I wanted to write something utilizing Qui
 - The project had to be something useful, otherwise, what's the point?
  
 ## Introducing Permit
+![screenshot.png](https://bitbucket.org/repo/GM556R/images/3691134067-screenshot.png)
+
 Permit is a GUI interface for Linux **chmod**. It permits (pun intended ?) the user to play with Linux permissions 
 without affecting any particular file and/or it permits the user to physically modify the file permissions of a 
 selected file/directory.
@@ -27,6 +29,7 @@ somewhere and the program works, as it is, for me.
 - Enable file dialog to return directory instead of opening the directory _(this might only be possible with GTK+ 3)_
 - ~~Refactor switch code~~
 - ~~~Prevent user from doing a chmod 000 to himself!~~~
+- Remove menu???
 
 ## Implementation Notes
 Permit is known to run with:
