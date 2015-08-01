@@ -13,6 +13,7 @@ Which brings us to the present moment. I wanted to write something utilizing Qui
  
 ## Introducing Permit
 ![screenshot.png](https://bitbucket.org/repo/GM556R/images/3691134067-screenshot.png)
+
 Permit is a GUI interface for Linux **chmod**. It permits (pun intended ?) the user to play with Linux permissions 
 without affecting any particular file and/or it permits the user to physically modify the file permissions of a 
 selected file/directory.
