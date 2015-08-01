@@ -30,6 +30,7 @@ somewhere and the program works, as it is, for me.
 - ~~Refactor switch code~~
 - ~~~Prevent user from doing a **chmod 000** to himself/herself!~~~
 - Remove menu???
+- Add **chown** functionality???
 
 ## Implementation Notes
 Permit is known to run with:
