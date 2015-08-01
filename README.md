@@ -36,12 +36,26 @@ Permit is known to run with:
 - GTK+ v2.24.27
 
 ## Using Permit
+As this is a **Quickly** project, you must first install Quickly, then **package** the project to produce an 
+executable file _(using Quickly is beyond the scope of this readme, so refer to Quickly's web site and/or Google 
+searches to find help)_.
+
+```bash
+quickly package
+```
+
+Once you have built **permit**:
+
 ```bash
 python /<INSTALL_PATH>/bin/permit.pyc
 ```
+
 or
+
 ```bash
 /<INSTALL_PATH>/bin/permit.pyc
 ```
 
-Enjoy!
+Actually using **permit** is self-evident and straight-forward. If all else fails, experiment!
+
+## Enjoy!
