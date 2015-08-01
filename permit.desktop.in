@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Permit
+_Comment=Permit application
+Categories=GNOME;Utility;
+Exec=permit
+Icon=permit
+Terminal=false
+Type=Application

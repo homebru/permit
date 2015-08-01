@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: permit
+Upstream-Contact: UNKNOWN <UNKNOWN>
+Source: UNKNOWN
+
+Files: *
+Copyright: (C) YYYY <Your Name> <Your E-mail>
+License: UNKNOWN
