@@ -28,6 +28,9 @@ class PermitWindow(Window):
 
     __gtype_name__ = "PermitWindow"
 
+    owner = ''
+    group = ''
+
     octal_owner = 7
     octal_group = 5
     octal_other = 1
@@ -173,11 +176,11 @@ class PermitWindow(Window):
         uid = st.st_uid
         gid = st.st_gid
 
-        owner = pwd.getpwuid(uid)[0]
-        group = grp.getgrgid(gid)[0]
+        self.owner = pwd.getpwuid(uid)[0]
+        self.group = grp.getgrgid(gid)[0]
 
-        self.ui.label_owner.set_text(owner)
-        self.ui.label_group.set_text(group)
+        self.ui.entry_owner.set_text(self.owner)
+        self.ui.entry_group.set_text(self.group)
         self.ui.box_names.show()
 
         # Owner
@@ -200,6 +203,8 @@ class PermitWindow(Window):
     def chmod_button_button_press_event_cb(self, widget, event):
         os.chmod(self.ui.filechooserbutton1.get_filename(), int("0" + self.ui.entry_octal.get_text(), 8))
         self.ui.label_status.set_text("Permissions set to: 0" + self.ui.entry_octal.get_text())
+        if self.ui.entry_owner.get_text() != self.owner or self.ui.entry_group.get_text() != self.group:
+            os.chown(self.ui.filechooserbutton1.get_filename(), pwd.getpwnam(self.owner).pw_uid, grp.getgrnam(self.group).gr_gid)
 
     def switch_state_set_cb(self, widget, data=None):
         widget_name = self.builder.get_name(widget)
