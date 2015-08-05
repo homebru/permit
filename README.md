@@ -28,8 +28,9 @@ somewhere and the program works, as it is, for me.
 - ~~Display owner and group names of the loaded file/directory~~
 - Enable file dialog to return directory instead of opening the directory _(this might only be possible with GTK+ 3)_
 - ~~Refactor switch code~~
-- ~~~Prevent user from doing a chmod 000 to himself!~~~
+- ~~~Prevent user from doing a **chmod 000** to himself/herself!~~~
 - Remove menu???
+- Add **chown** functionality???
 
 ## Implementation Notes
 Permit is known to run with:
