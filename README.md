@@ -31,6 +31,7 @@ somewhere and the program, as it is, works for me.
 - ~~Prevent user from doing a **chmod 000** to himself/herself!~~
 - ~~Remove menu???~~
 - ~~Add **chown** functionality???~~
+- Design a more suitable icon
 
 ## Implementation Notes
 Permit is known to run with:
