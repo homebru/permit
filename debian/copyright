@@ -1,8 +1,11 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: permit
-Upstream-Contact: UNKNOWN <UNKNOWN>
-Source: UNKNOWN
+Upstream-Contact: 10Perfections <10Perfections@gmail.com>
+Source: https://bitbucket.org/10Perfections/Permit
 
 Files: *
-Copyright: (C) YYYY <Your Name> <Your E-mail>
-License: UNKNOWN
+Copyright: (C) 2015 10Perfections 10Perfections@gmail.com
+Copyright: (C) 2015 10Perfections 10Perfections@gmail.com</property><property name="can_focus">False</property>
+License: GPL-3
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/GPL-3 on Debian systems.

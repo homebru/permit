@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-08 07:28-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/ui/PermitWindow.ui.h:1 ../permit.desktop.in.h:1
+msgid "Permit"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:2
+msgid "Permissions:"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:3
+msgid "751"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:4
+msgid "-rwxr-x--x"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:5
+msgid "Owner"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:6
+msgid "Group"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:7
+msgid "Other"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:8
+msgid "Read"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:9
+msgid "Write"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:10
+msgid "Execute"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:11
+msgid "File:"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:12
+msgid "chmod"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:13
+msgid "Owner:"
+msgstr ""
+
+#: ../data/ui/PermitWindow.ui.h:14
+msgid "Group:"
+msgstr ""
+
+#: ../permit/__init__.py:34
+msgid "Show debug messages (-vv debugs permit_lib also)"
+msgstr ""
+
+#: ../permit.desktop.in.h:2
+msgid "GUI for managing chmod and chown"
+msgstr ""
+
+#: ../data/ui/PreferencesPermitDialog.ui.h:1
+msgid "Permit Preferences"
+msgstr ""
+
+#: ../data/ui/PreferencesPermitDialog.ui.h:2
+msgid "_Example entry:"
+msgstr ""
+
+#: ../data/ui/AboutPermitDialog.ui.h:1
+msgid ""
+"# Copyright (C) 2015 10Perfections 10Perfections@gmail.com\n"
+"# This program is free software: you can redistribute it and/or modify it \n"
+"# under the terms of the GNU General Public License version 3, as "
+"published \n"
+"# by the Free Software Foundation.\n"
+"# \n"
+"# This program is distributed in the hope that it will be useful, but \n"
+"# WITHOUT ANY WARRANTY; without even the implied warranties of \n"
+"# MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR \n"
+"# PURPOSE.  See the GNU General Public License for more details.\n"
+"# \n"
+"# You should have received a copy of the GNU General Public License along \n"
+"# with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+msgstr ""
+
+#: ../data/ui/AboutPermitDialog.ui.h:14
+msgid "Copyright (C) 2015 10Perfections 10Perfections@gmail.com"
+msgstr ""

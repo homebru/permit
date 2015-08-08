@@ -1,6 +1,6 @@
 [Desktop Entry]
 _Name=Permit
-_Comment=Permit application
+_Comment=GUI for managing chmod and chown
 Categories=GNOME;Utility;
 Exec=permit
 Icon=permit
