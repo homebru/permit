@@ -6,3 +6,4 @@ Exec=permit
 Icon=permit
 Terminal=false
 Type=Application
+Version=0.1
