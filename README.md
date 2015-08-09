@@ -12,25 +12,26 @@ Which brings us to the present moment. I wanted to write something utilizing Qui
 - The project had to be something useful, otherwise, what's the point?
  
 ## Introducing Permit
-![screenshot.png](https://bitbucket.org/repo/GM556R/images/3691134067-screenshot.png)
+![screenshot.png](https://bitbucket.org/repo/GM556R/images/2197090324-screenshot.png)
 
-Permit is a GUI interface for Linux **chmod**. It permits (pun intended ?) the user to play with Linux permissions 
-without affecting any particular file and/or it permits the user to physically modify the file permissions of a 
-selected file/directory.
+Permit is a GUI interface for Linux **chmod** and **chown**. It permits (pun intended ?) the user to play with Linux permissions 
+without affecting any particular file and/or it permits the user to physically modify the file permissions and ownership of a 
+selected file/directory *(directory support coming later)*.
 
 Please note: I make no apologies for implementing GTK and/or Python inefficiently or incorrectly. I had to start 
-somewhere and the program works, as it is, for me.
+somewhere and the program, as it is, works for me.
 
 ## ToDo
 - ~~Prevent non-Octal values from being entered in the Octal Permissions textbox~~
 - ~~Prevent invalid characters (i.e. **not** -, d, r, w, x) from being entered in the Symbolic Permissions textbox~~
 - ~~Detect directory for the Symbolic Permissions textbox~~
 - ~~Display owner and group names of the loaded file/directory~~
-- Enable file dialog to return directory instead of opening the directory _(this might only be possible with GTK+ 3)_
+- Enable file dialog to return directory instead of opening the directory _(this might only be possible with GTK+ 3 !?!?)_
 - ~~Refactor switch code~~
-- ~~~Prevent user from doing a **chmod 000** to himself/herself!~~~
-- ~~~Remove menu???~~~
-- ~~~Add **chown** functionality???~~~
+- ~~Prevent user from doing a **chmod 000** to himself/herself!~~
+- ~~Remove menu???~~
+- ~~Add **chown** functionality???~~
+- Design a more suitable icon
 
 ## Implementation Notes
 Permit is known to run with:
@@ -48,17 +49,13 @@ searches to find help)_.
 quickly package
 ```
 
-Once you have built **permit**:
+Once you have packaged **permit**:
+
 
 ```bash
-python /<INSTALL_PATH>/bin/permit.pyc
+/<INSTALL_PATH>/bin/permit
 ```
-
-or
-
-```bash
-/<INSTALL_PATH>/bin/permit.pyc
-```
+(e.g. ```/usr/bin/permit```)
 
 Actually using **permit** is self-evident and straight-forward. If all else fails, experiment!
 
